@@ -18,10 +18,7 @@ class TController: UIViewController {
     let value2 = UILabel()
     let exchange = UIButton()
     let desc = UILabel()
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         value1.backgroundColor = UIColor.lightGray
