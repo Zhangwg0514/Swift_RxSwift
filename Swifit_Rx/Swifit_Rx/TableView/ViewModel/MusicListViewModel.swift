@@ -9,6 +9,7 @@
 import RxSwift
 
 struct MusicListViewModel {
+    //创建 Observable 序列
     let data = Observable.just([
         Music(name: "无条件", singer: "陈奕迅"),
         Music(name: "你曾是少年", singer: "S.H.E"),
