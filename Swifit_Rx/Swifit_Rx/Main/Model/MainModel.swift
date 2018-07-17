@@ -8,9 +8,7 @@
 
 import UIKit
 
-// Swfit viewModel 和 model 一般都是用结构体来构建数据模型
-
-struct  MainModel{
+class MainModel {
     var name: String
     var desc: String
     var icon: String

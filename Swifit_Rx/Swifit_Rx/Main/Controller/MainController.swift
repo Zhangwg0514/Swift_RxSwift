@@ -51,6 +51,9 @@ class MainController: UIViewController {
                     self.navigationController?.pushViewController(TController(), animated: true)
                 case "TableViewController":
                     self.navigationController?.pushViewController(TableViewController(), animated: true)
+                case "ObserverController":
+                    self.navigationController?.pushViewController(ObserverController(), animated: true)
+
                 default: break
                     
                 }

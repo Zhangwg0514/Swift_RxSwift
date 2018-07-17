@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>Swfit_泛型的使用</string>
+		<string>Swift_泛型的使用</string>
 		<key>icon</key>
 		<string></string>
 		<key>desc</key>
@@ -14,7 +14,7 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Swfit_登录注册</string>
+		<string>Swift_登录注册</string>
 		<key>icon</key>
 		<string></string>
 		<key>desc</key>
@@ -44,13 +44,13 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string></string>
+		<string>RxSwift_观察者1:AnyObserver,Binder</string>
 		<key>icon</key>
 		<string></string>
 		<key>desc</key>
 		<string></string>
 		<key>className</key>
-		<string>LoginController</string>
+		<string>ObserverController</string>
 	</dict>
 	<dict>
 		<key>name</key>
