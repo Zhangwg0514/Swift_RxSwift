@@ -15,7 +15,6 @@
 		B235421520EF8E5D0092BA92 /* Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235421420EF8E5D0092BA92 /* Refreshable.swift */; };
 		B235421B20EF929E0092BA92 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235421A20EF929E0092BA92 /* NetworkService.swift */; };
 		B235421D20EF930A0092BA92 /* RefreshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235421C20EF930A0092BA92 /* RefreshViewModel.swift */; };
-		B25D216120FD8DB300CE4429 /* ObserverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25D216020FD8DB300CE4429 /* ObserverController.swift */; };
 		B290B7FD20EDF5F200821DC5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290B7FB20EDF5F200821DC5 /* LoginController.swift */; };
 		B290B7FE20EDF5F200821DC5 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B290B7FC20EDF5F200821DC5 /* LoginController.xib */; };
 		B290B80120EE011C00821DC5 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290B80020EE011C00821DC5 /* HeroModel.swift */; };
@@ -32,6 +31,7 @@
 		B2CD42C320ECD4D300C66780 /* Swifit_RxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD42C220ECD4D300C66780 /* Swifit_RxUITests.swift */; };
 		B2CD42D920ECD6DC00C66780 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD42D820ECD6DC00C66780 /* MainController.swift */; };
 		B2CD42DB20ECD6F500C66780 /* NaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD42DA20ECD6F500C66780 /* NaviController.swift */; };
+		B2D49DF020FDFDF300768D0B /* ObserverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D49DEF20FDFDF300768D0B /* ObserverController.swift */; };
 		B2D4CC5E20F88591000B42A3 /* TController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4CC5D20F88591000B42A3 /* TController.swift */; };
 		B2D4CC6020F89749000B42A3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4CC5F20F89749000B42A3 /* TableViewController.swift */; };
 		B2D4CC6220F89778000B42A3 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4CC6120F89778000B42A3 /* MusicListViewModel.swift */; };
@@ -66,7 +66,6 @@
 		B235421420EF8E5D0092BA92 /* Refreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refreshable.swift; sourceTree = "<group>"; };
 		B235421A20EF929E0092BA92 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		B235421C20EF930A0092BA92 /* RefreshViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewModel.swift; sourceTree = "<group>"; };
-		B25D216020FD8DB300CE4429 /* ObserverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverController.swift; sourceTree = "<group>"; };
 		B290B7FB20EDF5F200821DC5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		B290B7FC20EDF5F200821DC5 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
 		B290B80020EE011C00821DC5 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
@@ -89,6 +88,7 @@
 		B2CD42C420ECD4D300C66780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2CD42D820ECD6DC00C66780 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		B2CD42DA20ECD6F500C66780 /* NaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviController.swift; sourceTree = "<group>"; };
+		B2D49DEF20FDFDF300768D0B /* ObserverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverController.swift; sourceTree = "<group>"; };
 		B2D4CC5D20F88591000B42A3 /* TController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TController.swift; sourceTree = "<group>"; };
 		B2D4CC5F20F89749000B42A3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B2D4CC6120F89778000B42A3 /* MusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
@@ -409,7 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				B2D4CC5D20F88591000B42A3 /* TController.swift */,
-				B25D216020FD8DB300CE4429 /* ObserverController.swift */,
+				B2D49DEF20FDFDF300768D0B /* ObserverController.swift */,
 			);
 			path = T;
 			sourceTree = "<group>";
@@ -609,7 +609,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D4CC6220F89778000B42A3 /* MusicListViewModel.swift in Sources */,
-				B25D216120FD8DB300CE4429 /* ObserverController.swift in Sources */,
+				B2D49DF020FDFDF300768D0B /* ObserverController.swift in Sources */,
 				B2CD42D920ECD6DC00C66780 /* MainController.swift in Sources */,
 				B23541FC20EF3E890092BA92 /* MainModel.swift in Sources */,
 				B235421D20EF930A0092BA92 /* RefreshViewModel.swift in Sources */,
