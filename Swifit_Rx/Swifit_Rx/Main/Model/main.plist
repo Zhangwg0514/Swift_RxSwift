@@ -44,7 +44,7 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>RxSwift_观察者1:AnyObserver,Binder</string>
+		<string>RxSwift_观察者</string>
 		<key>icon</key>
 		<string></string>
 		<key>desc</key>

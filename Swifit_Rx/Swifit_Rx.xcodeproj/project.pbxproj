@@ -31,7 +31,7 @@
 		B2CD42C320ECD4D300C66780 /* Swifit_RxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD42C220ECD4D300C66780 /* Swifit_RxUITests.swift */; };
 		B2CD42D920ECD6DC00C66780 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD42D820ECD6DC00C66780 /* MainController.swift */; };
 		B2CD42DB20ECD6F500C66780 /* NaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD42DA20ECD6F500C66780 /* NaviController.swift */; };
-		B2D49DF020FDFDF300768D0B /* ObserverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D49DEF20FDFDF300768D0B /* ObserverController.swift */; };
+		B2D4921A20FEDF3900EC5EC4 /* ObserverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4921920FEDF3900EC5EC4 /* ObserverController.swift */; };
 		B2D4CC5E20F88591000B42A3 /* TController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4CC5D20F88591000B42A3 /* TController.swift */; };
 		B2D4CC6020F89749000B42A3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4CC5F20F89749000B42A3 /* TableViewController.swift */; };
 		B2D4CC6220F89778000B42A3 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4CC6120F89778000B42A3 /* MusicListViewModel.swift */; };
@@ -88,7 +88,7 @@
 		B2CD42C420ECD4D300C66780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2CD42D820ECD6DC00C66780 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		B2CD42DA20ECD6F500C66780 /* NaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviController.swift; sourceTree = "<group>"; };
-		B2D49DEF20FDFDF300768D0B /* ObserverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverController.swift; sourceTree = "<group>"; };
+		B2D4921920FEDF3900EC5EC4 /* ObserverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverController.swift; sourceTree = "<group>"; };
 		B2D4CC5D20F88591000B42A3 /* TController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TController.swift; sourceTree = "<group>"; };
 		B2D4CC5F20F89749000B42A3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B2D4CC6120F89778000B42A3 /* MusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
@@ -257,6 +257,7 @@
 				B2CD42D020ECD69100C66780 /* Main */,
 				B2D4CC5C20F88564000B42A3 /* T */,
 				B290B7F520EDF2CC00821DC5 /* Login */,
+				B2D4921220FEDE8F00EC5EC4 /* Observe */,
 				B2D4CC5720F88388000B42A3 /* TableView */,
 				B235420220EF75E80092BA92 /* Refresh */,
 				B2CD429F20ECD4D200C66780 /* AppDelegate.swift */,
@@ -363,6 +364,46 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		B2D4921220FEDE8F00EC5EC4 /* Observe */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4921320FEDEC700EC5EC4 /* Controller */,
+				B2D4921520FEDEC700EC5EC4 /* Model */,
+				B2D4921620FEDEC700EC5EC4 /* View */,
+				B2D4921420FEDEC700EC5EC4 /* ViewModel */,
+			);
+			path = Observe;
+			sourceTree = "<group>";
+		};
+		B2D4921320FEDEC700EC5EC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4921920FEDF3900EC5EC4 /* ObserverController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2D4921420FEDEC700EC5EC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B2D4921520FEDEC700EC5EC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2D4921620FEDEC700EC5EC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B2D4CC5720F88388000B42A3 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,7 +450,6 @@
 			isa = PBXGroup;
 			children = (
 				B2D4CC5D20F88591000B42A3 /* TController.swift */,
-				B2D49DEF20FDFDF300768D0B /* ObserverController.swift */,
 			);
 			path = T;
 			sourceTree = "<group>";
@@ -583,6 +623,7 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -593,6 +634,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -609,13 +651,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D4CC6220F89778000B42A3 /* MusicListViewModel.swift in Sources */,
-				B2D49DF020FDFDF300768D0B /* ObserverController.swift in Sources */,
 				B2CD42D920ECD6DC00C66780 /* MainController.swift in Sources */,
 				B23541FC20EF3E890092BA92 /* MainModel.swift in Sources */,
 				B235421D20EF930A0092BA92 /* RefreshViewModel.swift in Sources */,
 				B290B80120EE011C00821DC5 /* HeroModel.swift in Sources */,
 				B2CD42A220ECD4D200C66780 /* ViewController.swift in Sources */,
 				B2CD42A020ECD4D200C66780 /* AppDelegate.swift in Sources */,
+				B2D4921A20FEDF3900EC5EC4 /* ObserverController.swift in Sources */,
 				B2D4CC6420F8981A000B42A3 /* Music.swift in Sources */,
 				B2CD42A820ECD4D200C66780 /* Swifit_Rx.xcdatamodeld in Sources */,
 				B2D4CC6020F89749000B42A3 /* TableViewController.swift in Sources */,
@@ -807,10 +849,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Swifit_Rx/Header/Swfit_Rx_PrefixHeader.pch";
 				INFOPLIST_FILE = Swifit_Rx/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leyouyou.leyou.Swifit-Rx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Swifit_Rx/Header/Swift-Bridge-Objective-C.h";
@@ -830,10 +869,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Swifit_Rx/Header/Swfit_Rx_PrefixHeader.pch";
 				INFOPLIST_FILE = Swifit_Rx/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leyouyou.leyou.Swifit-Rx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Swifit_Rx/Header/Swift-Bridge-Objective-C.h";
@@ -851,11 +887,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZZ3657YTT;
 				INFOPLIST_FILE = Swifit_RxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leyouyou.leyou.Swifit-RxTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -872,11 +904,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZZ3657YTT;
 				INFOPLIST_FILE = Swifit_RxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leyouyou.leyou.Swifit-RxTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -892,11 +920,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZZ3657YTT;
 				INFOPLIST_FILE = Swifit_RxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leyouyou.leyou.Swifit-RxUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -912,11 +936,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZZ3657YTT;
 				INFOPLIST_FILE = Swifit_RxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leyouyou.leyou.Swifit-RxUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

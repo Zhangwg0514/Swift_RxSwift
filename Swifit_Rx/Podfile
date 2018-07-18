@@ -13,6 +13,7 @@ use_frameworks!
     pod 'RxCocoa'
     pod 'IQKeyboardManagerSwift'
     pod 'MJRefresh'
+    pod 'SCLAlertView'
     
   # Pods for Swifit_Rx
 
